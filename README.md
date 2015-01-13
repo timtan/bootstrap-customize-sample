@@ -7,9 +7,9 @@
 
 At first, you should make sure you have [virtualenv](http://www.virtualenv.org/) installed. 
 
-after that, just cd to your\_project_name:
+after that, just cd to your project_name:
 
-   cd bootstrap-customize-sample
+	cd bootstrap-customize-sample
 
 Then create your virtualenv:
 
@@ -34,6 +34,9 @@ For development:
 to start project.  cd your\_project_name again (find manage.py )
 
 ```bash
+
+cd uber
+
 python manage.py migrate   # you just do it once
 
 python manage.py runserver
