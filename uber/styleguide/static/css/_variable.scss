@@ -108,9 +108,9 @@
 // $line-height-large:         1.33
 // $line-height-small:         1.5
 
-// $border-radius-base:        4px
-// $border-radius-large:       6px
-// $border-radius-small:       3px
+$border-radius-base:        0;
+$border-radius-large:       0;
+$border-radius-small:       0;
 
 //** Global color for active items (e.g., navs or dropdowns).
 // $component-active-color:    #fff
@@ -150,9 +150,9 @@
 
 // $btn-font-weight:                normal
 
-// $btn-default-color:              #333
-// $btn-default-bg:                 #fff
-// $btn-default-border:             #ccc
+$btn-default-color:              black;
+$btn-default-bg:                 white;
+$btn-default-border:             black;
 
 // $btn-primary-color:              #fff
 // $btn-primary-bg:                 $brand-primary
@@ -495,7 +495,7 @@
 // $state-success-bg:               #dff0d8
 // $state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%)
 
-// $state-info-text:                #31708f
+$state-info-text:                #4CBBD5;
 // $state-info-bg:                  #d9edf7
 // $state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%)
 
@@ -704,12 +704,12 @@
 // $panel-border-radius:         $border-radius-base
 
 //** Border color for elements within panels
-// $panel-inner-border:          #ddd
-// $panel-footer-bg:             #f5f5f5
+$panel-inner-border:          white;
+$panel-footer-bg:             white;
 
 // $panel-default-text:          $gray-dark
-// $panel-default-border:        #ddd
-// $panel-default-heading-bg:    #f5f5f5
+$panel-default-border:        white;
+$panel-default-heading-bg:    white;
 
 // $panel-primary-text:          #fff
 // $panel-primary-border:        $brand-primary
