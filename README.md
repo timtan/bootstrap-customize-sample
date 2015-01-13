@@ -1,23 +1,7 @@
-# Django Template for Dorm7
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dorm7/django-project-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-This is a django template for dorm7
-
-## INSTALLATION & SETTINGS
-
-### Install Django
-
-To install django, justtype the following command
-
-    sudo pip install django
-    
-### Create Django project from the template
-
-To create the project, run the following command and please replace your\_project_name to what you like :
-
-    django-admin.py startproject --template=https://github.com/dorm7/django-project-template/archive/master.zip --extension=py,rst,html your_project_name
-
+	git clone https://github.com/timtan/bootstrap-customize-sample
+	
+	
 
 ### Setting Virtualenv
 
@@ -25,7 +9,7 @@ At first, you should make sure you have [virtualenv](http://www.virtualenv.org/)
 
 after that, just cd to your\_project_name:
 
-   cd your\_project_name
+   cd bootstrap-customize-sample
 
 Then create your virtualenv:
 
@@ -43,14 +27,6 @@ Second, you need to enable the virtualenv by
 For development:
 
     pip install -r requirements/local.txt
-
-For production:
-
-    pip install -r requirements.txt
-
-For heroku:
-
-Use requirements-heroku.txt to replace requirements.txt
 
 
 ### Start To Run
