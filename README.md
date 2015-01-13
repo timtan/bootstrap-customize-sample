@@ -42,3 +42,16 @@ python manage.py runserver
 feel free to visit [http://127.0.0.1:8000/style_guide/](http://127.0.0.1:8000/style_guide/) and edit _varialbe.scss, you will see the amazing starting style guide for the project
 
 	
+	
+### Where to edit
+
+here is the file you only want to edit
+
+uber/styleguide/static/css/_variable.scss
+
+when edit a variable, 
+
+just refresh your page
+
+
+
